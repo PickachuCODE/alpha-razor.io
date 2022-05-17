@@ -1,0 +1,103 @@
+/* ----------------------------------------------------------------------- */
+/* Dashboard Styles*/
+.Dashboard {
+    height: 100vh;
+}
+.dashTop {
+    padding: 8px 16px ;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    align-items: center;
+    -webkit-app-region: drag;
+
+}
+.hub2logo {
+    width: 19px;
+}
+.wrapLogo{
+    display:grid;
+    align-items: center;
+}
+.DashContainer {
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
+.DcSub {
+    padding-top: 5px;
+}
+.leftDC {
+    display: grid;
+    height: 100%;
+    align-items: flex-end;
+    padding: 0px 45px;
+}
+.links-DC {
+    display: flex;
+    margin-top: 60px;
+}
+
+.linkBox-DC {
+    margin: 10px 15px;
+}
+.linkBox-DC a {
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.linkBox-DC:hover a {
+    opacity: 1;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+/* ProjectTitle */
+.projectTitle{
+    text-align: center;
+    font-size: 12px;
+}
+
+/* User Icons Style */
+.userSection{
+    display: grid;
+    justify-content: right;
+}
+.userBox{
+    height:26px;
+    width: 26px;
+    display: grid;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    background: rgb(84, 84, 84);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.userBox h2{
+    font-size: 11px;
+    text-align: center;
+    font-weight: 200;
+}
+.sidestuff{
+    display: flex;
+    justify-content: right;
+}
+.toolBttn{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    cursor: default;
+}
+.toolBttn-Link:hover{
+    
+}
+.SecondwrpCardWorkSpace{}

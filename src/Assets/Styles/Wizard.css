@@ -1,0 +1,47 @@
+/* ----------------------------------------------------------------------- */
+/* Wizard Styles */
+.wizard {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(6px);
+}
+.wrapCreatePorject {
+    border-radius: 13px;
+    padding:100px 70px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
+/* workSpace Design */
+.wrapWorkspaceComponent{
+    display: grid;
+    width:290px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.wrapWorkspaceComponent::-webkit-scrollbar{
+    display: none;
+}
+.wrapWorkspaceComponentsub{
+    display: flex;
+    grid-gap: 15px;
+}
+.WorkspaceCard{
+    width: 85px;
+    height: 80px;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

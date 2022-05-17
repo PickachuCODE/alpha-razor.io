@@ -1,0 +1,70 @@
+.RazorEditorLayout{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 11;
+    background: orange;
+    padding-top: 42px;
+    display: grid;
+    grid-template-rows: 35px 1fr 22px;
+}
+
+/* .TopSection{
+}
+.MiddleSection{
+}
+.BottomSection{
+} */
+.MiddleWrap{
+    display: grid;
+    grid-template-columns: 70px 1fr 70px;
+    height: 100%;
+}
+.editorWrap{
+}
+.toolwrap{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+.toolwrapTop{
+    display:flex;
+    position:relative;
+    margin-top: 15px;
+}
+.toolwrapBottom{
+    display:flex;
+    align-items: flex-end;
+    height: 100%;
+    position:relative;
+    padding-bottom: 15px;
+}
+.TWwrap{
+    display: flex;
+    flex-flow: column;
+    grid-gap: 10px;
+}
+
+
+/* TaskButton */
+.TaskButton{
+    height: 42px;
+    width: 42px;
+    background: black;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* editor */
+.editorWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editor{
+    height: 100px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.239);
+}
