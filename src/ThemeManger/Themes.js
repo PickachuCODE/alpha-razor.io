@@ -31,6 +31,8 @@ const DefaultThemes = {
         wizardColor: '#131313bf',
         projectColor: '#202020',
         projectColorSecond: '#333333',
+        toolBarColor: '#202020cc',
+        toolBarChildColor: '#151515',
         themeLogo: LogoDark
     },
 

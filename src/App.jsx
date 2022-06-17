@@ -86,15 +86,17 @@ function LoadHub() {
                     <AuthLoading
                         LoadingTitle={"Signing you in"}
                         LoadingSub={
-                            "setuping up your profile from your github account"
+                            "seting up your profile from your github account"
                         }
                     />
                 ) : (
-                    <> {localUser ? <DashBoard /> : <SignIn />}</>
+                    <> {localUser ? <DashBoard/> : <SignIn />}</>
+                    
                 )
             ) : (
-                <></>
-            )}
+                <>o</>
+            )
+            }
         </div>
     );
 }

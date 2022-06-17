@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react";
-import { useCallback, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, Outlet } from "react-router-dom";
 import RazorEditor from "../../RazorEditor/RazorEditor";
 import { useLocalStorage } from "../../RazorFunctions/LocalStorage";
 import { useTheme } from "../../ThemeManger/Themes";
@@ -47,6 +47,7 @@ export function MyProjects() {
         marginTop: "0px",
         textAlign: "center",
         display: "inline",
+        color:theme.altColor
     };
     function updateData() {
         let dataUpdate = getSavedValue();
@@ -131,14 +132,14 @@ export function MyProjects() {
                     >
                         <Icon
                             icon={plus}
-                            color={theme.altColor}
+                            
                             style={Plusstyle}
                             height={16}
                         />
                     </div>
                 </div>
             </div>
-            {/* <Outlet /> */}
+            <Outlet />
         </div>
     );
 }

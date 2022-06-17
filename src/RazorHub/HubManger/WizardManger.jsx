@@ -100,11 +100,12 @@ function CreateProjectWizard(props) {
                     >
                         <Icon
                             icon={codepenFill}
-                            color={theme.altColor}
+                            
                             style={{
                                 marginTop: "0px",
                                 textAlign: "center",
                                 display: "inline",
+                                color : theme.altColor
                             }}
                             height={50}
                         />
@@ -179,12 +180,13 @@ function CreateProjectWizard(props) {
             >
                 <Icon
                     icon={plus}
-                    color={theme.altColor}
+                    
                     style={{
                         marginTop: "0px",
                         textAlign: "center",
                         display: "inline",
                         transform: "rotateZ(45deg)",
+                        color:theme.altColor
                     }}
                     height={16}
                 />
@@ -269,11 +271,11 @@ function SetProjectWizard(props) {
                     >
                         <Icon
                             icon={codepenFill}
-                            color={theme.altColor}
                             style={{
                                 marginTop: "0px",
                                 textAlign: "center",
                                 display: "inline",
+                            color:theme.altColor
                             }}
                             height={50}
                         />
@@ -341,12 +343,12 @@ function SetProjectWizard(props) {
             >
                 <Icon
                     icon={plus}
-                    color={theme.altColor}
                     style={{
                         marginTop: "0px",
                         textAlign: "center",
                         display: "inline",
                         transform: "rotateZ(45deg)",
+                    color:theme.altColor
                     }}
                     height={16}
                 />

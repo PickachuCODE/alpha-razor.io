@@ -18,7 +18,7 @@ export default function DashBoard() {
         <>
             <div
                 //for first time loading of the hub
-                //this is give the user offline acess to the hub
+                //this is give the user offline access to the hub
                 // onLoad={InitUser}
                 className="dashTop"
                 style={{ background: theme.primaryColor }}
@@ -69,6 +69,7 @@ export default function DashBoard() {
                     </div>
                 </div>
             </div>
+            
             <Pages />
         </>
     );
